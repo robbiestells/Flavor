@@ -1,4 +1,4 @@
-package com.example.studio111.flavor.paid;
+package com.example.studio111.flavor.free;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -14,6 +14,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         tv = (TextView) findViewById(R.id.textView);
-        tv.setText("Paid");
+        tv.setText("Paid version");
     }
 }
